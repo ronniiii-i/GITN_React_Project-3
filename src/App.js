@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <>
+      <header>
+        <div className="darkbtn">
+          <i className="fas fa-adjust"></i>
+        </div>
+        <div className="top">
+          <h1>
+            <i className="fas fa-book"></i> My <span className="green">Courses</span>{" "}
+            List App
+          </h1>
+        </div>
       </header>
-    </div>
+      <main></main>
+    </>
   );
 }
 
